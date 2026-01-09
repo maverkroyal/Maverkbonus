@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>maverkbonus</title>
+
+<style>
+    /* Farben aus deinem Bild */
+    :root {
+        --bg-dark: #0b0f17;
+        --gold: #f5a623;
+        --orange: #ff8c1a;
+        --white: #ffffff;
+        --red: #c62828;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body {
+        background: var(--bg-dark);
+        color: var(--white);
+    }
+
+    .header {
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .header h1 {
+        font-size: 48px;
+        color: var(--gold);
+        margin-bottom: 10px;
+    }
+
+    .header p {
+        font-size: 18px;
+        color: var(--white);
+    }
+
+    .cta {
+        margin-top: 30px;
+    }
+
+    .cta button {
+        background: var(--orange);
+        color: var(--white);
+        font-size: 20px;
+        padding: 15px 40px;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: 0.3s;
+    }
+
+    .cta button:hover {
+        background: var(--red);
+    }
+
+    .features {
+        display: flex;
+        justify-content: space-around;
+        padding: 40px 20px;
+        flex-wrap: wrap;
+    }
+
+    .feature-box {
+        background: #11181f;
+        width: 260px;
+        margin: 15px;
+        padding: 25px;
+        border-radius: 12px;
+        text-align: center;
+    }
+
+    .feature-box h3 {
+        color: var(--gold);
+        margin-bottom: 12px;
+    }
+
+    .feature-box p {
+        color: var(--white);
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    footer {
+        text-align: center;
+        padding: 20px;
+        font-size: 14px;
+        color: var(--white);
+        background: #0a0e13;
+    }
+</style>
+</head>
+
+<body>
+
+    <!-- HEADER / HERO -->
+    <header class="header">
+        <h1>maverkbonus</h1>
+        <p>Die beste Bonus- und Cashback-Plattform für deinen Gewinn!</p>
+
+        <div class="cta">
+            <button onclick="window.location='#features'">Jetzt starten</button>
+        </div>
+    </header>
+
+    <!-- FEATURES / VORTEILE -->
+    <section id="features" class="features">
+        <div class="feature-box">
+            <h3>Top Boni</h3>
+            <p>Finde exklusive Angebote & Boni mit den höchsten Gewinnen.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Schnell & Einfach</h3>
+            <p>Alles übersichtlich an einem Platz – ohne komplizierte Suche.</p>
+        </div>
+        <div class="feature-box">
+            <h3>Sichere Auswahl</h3>
+            <p>Nur geprüfte Anbieter mit Top-Bewertungen.</p>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        © 2026 maverkbonus – Alle Rechte vorbehalten.
+    </footer>
+
+</body>
+</html>
